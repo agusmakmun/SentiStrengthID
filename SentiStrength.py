@@ -177,7 +177,7 @@ class sentiStrength:
             pos= score if score > pos else pos
             neg= score if score < neg else neg
             
-            if score > 0:
+            if score <> 0:
                 #insert score between term
                 term = "{} [{}]".format(term, score)
             sentence_score.append(term)
