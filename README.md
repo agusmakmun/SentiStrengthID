@@ -1,6 +1,6 @@
 # SentiStrengthID
 Sentiment Strength Detection in Bahasa Indonesia. This is unsupervised version of SentiStrength (http://sentistrength.wlv.ac.uk/) in Bahasa Indonesia. 
-Core Feature:
+##Core Feature:
  - Sentiment Lookup
  - Negation Word Lookup
  - Booster Word Lookup
@@ -11,7 +11,8 @@ Core Feature:
  - Negative emotion ignored in question
  - Exclamation marks count as +2
  - Repeated Punctuation boosts sentiment
-Ignored Additional Rule
+ 
+##Ignored Rule:
  - repeated letters more than 2 boosts sentiment score. This rule do not applied due to my own pre-processing rule which removing word's extra character
  - score +2, -2 in word "miss". Do not apply in Bahasa Indonesia.
  
