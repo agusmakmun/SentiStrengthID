@@ -7,6 +7,7 @@ Sentiment Strength Detection in Bahasa Indonesia. This is unsupervised version o
  - Emoticon Lookup
  - Idiom Lookup
  - Question Word Lookup
+ - Slang Word Lookup
  - Spelling Correction (optional) using Pater Norvig (http://norvig.com/spell-correct.html)
  - Negative emotion ignored in question
  - Exclamation marks count as +2
